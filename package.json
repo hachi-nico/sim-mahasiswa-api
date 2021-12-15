@@ -4,11 +4,11 @@
   "main": "index.js",
   "author": "Hachi-Nico",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "nodemon app.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "firebase": "^9.6.0",
